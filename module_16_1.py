@@ -20,4 +20,4 @@ async def get_user(user_id: int):
 
 @app.get('/user')
 async def get_user_info(username: str, age: int):
-    return {f'Информация о пользователе. Имя: {username}, Возраст: {age}'}
+    return (f'Информация о пользователе. Имя: {username}, Возраст: {age}')
